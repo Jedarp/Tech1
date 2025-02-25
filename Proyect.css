@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.personalData {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  /* separacion */
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 56px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.info p {
+  font-size: 16px;
+}
+
+.description {
+  margin-top: 50px;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.services {
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.product {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.group {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  /* asegurar que no se distorcione con el tamaño de la ventana */
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.product-item {
+  background-color: #353941;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #ffc300;
+  width: auto;
+  font-size: 15px;
+}
+.product-item img {
+  width: 220px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.product-item:hover {
+  background-color: #5c5722;
+  scale: 1.05;
+  transition: 0.2s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  background-color: #14203c;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  gap: 5px;
+  color: #283747;
+}
+
+.contac {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+form {
+  padding: 5px;
+}
+
+button {
+  background-color: #14203c;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border: 3px solid #ffc300;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  color: #ffc300;
+}
+
+.wh {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* h1, h2 (aplica a ambos) */
+/* div. h1 (aplica solo a uno dentro del otro) */
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 15px;
+}
